@@ -1,6 +1,6 @@
 # **Travel Planner**
 
-###### Travel planner is a electric map which indicate traffic condition by playing different music and lighting.
+Travel planner is a electric map which indicate traffic condition by playing different music and lighting.
 ## **Summary**
   The goal of my project is to use the technology to help people identify the traffic situation and choose their 
 routes.
