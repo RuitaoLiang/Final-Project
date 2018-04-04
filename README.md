@@ -25,3 +25,23 @@ On the software side,I will need a mapbox to display map and traffic data API to
 - traffic data API (input)
 - mapbox(output)
 - a software with a few buttons to choose different route.(input)
+
+## **Block Diagram**
+
+https://github.com/RuitaoLiang/Final-Project/blob/master/block%20diagram.pdf
+
+## **Challenges**
+
+Finding the useful traffic data API is a challenge for me, since the data may not update very fast if it's free of charge.
+If Using a mapbox to display my map is not supporting user selection, I will need to draw my own map, which is a big challenge for me.
+
+Also building a software to let user choose the route is new to me.
+Finally adding LED lights to feather board and connecting it to the traffic data is also quite complicated, so I expect to take a long time to try and make errors.
+
+## **Timeline**
+
+-Week 1: Write proposal,online search traffic data API,and learn what data it generate and which is useful to my project
+-Week 2: use mapbox to display the map and write code to play music according the trafiic data
+-Week 3: build a user selection route map and make code to play music
+-Week 4: add lighting to the project and control it with code and traffic data.
+-Week 5: Present complete project.
