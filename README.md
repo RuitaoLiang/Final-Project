@@ -1,24 +1,35 @@
-# **Global Music Player**
+# **Travel Planner**
 
-Global music player is a physical globe which plays different music as a player touches different continent on the globe.
+Travel planner is a tool which help users to find a better route by play music and showing different lighting.
 ## **Summary**
-  The goal of my project is to use the technology to help people learn music from different areas.
-  The reason I choose this subject is that I want to find a way to help people understand various culture in our world, while music is part of the culture.
-  As a player touches different continent on the globe, computer will play the music created in that area. For example, when a player touches Africa on the globe, he or she will hear the African music collection. If I still have time after finish this, I will add some color lights on it. So the player will hear the music and see the lightning in that area. 
+  The goal of my project is to use the technology to help people identify the traffic situation and choose their 
+routes.
+The reason I choose this subject is related to my commute experience. Since I need to drive to San francisco
+campus from the east bay every weekday, it's hard to look at the map on my phone to check the traffic condition.
+Most of the time I listen to music while I am driving. So if there is a smart map that can tell drivers the traffic 
+condition by playing different music, it will be much safer to look at the screen while driving. For some people who
+like to check the traffic condition before they take off, I want to use different colors of LED lights with music 
+to indicate the traffic condition.
+The ideal way is that user choose the route with their voice, and the smart map will tell the user how is 
+the traffic condition with music and lighting.Because we only have 5 weeks to execute the project, I will start
+by making the automatically-selected routes map with music.According to the real time traffic data, the program will
+play various music. If I finish this before 3 weeks, I will build the user selection routes map. As user choose different
+routes, the program will play different kinds of music. 
  
 
 ## **Component Parts**
 
-On the hardware side, I will need a globe, fabric sensors, some LED lights, Feather board and my computer.
--  a globe cover with fabric sensors(input)
+On the hardware side, I will need some LED lights, Feather board and my computer.
 - LED lights (output)
 
-On the software side,I will need some music collection of 7 continents.
+On the software side,I will need mapbox to display the map and traffic data API.
 - music player (output)
+- mapbox(output)
+-traffic data(input)
 
 
 ## **Block Diagram**
-https://github.com/RuitaoLiang/Final-Project/blob/master/Screen%20Shot%202018-04-10%20at%209.26.14%20AM.png
+https://github.com/RuitaoLiang/Final-Project/blob/master/block%20diagram.pdf
 
 ## **Challenges**
 
@@ -26,8 +37,8 @@ Connecting the globe and fabic sensors is a challenge for me, since I never use 
 
 ## **Timeline**
 
-- Week 1: Write proposal,get the materials 
-- Week 2: connect the sensors to the globe and write code to play music 
-- Week 3: build a user selection web and make code to let them choose different music in one area
+- Week 1: Write proposal,search traffic data API
+- Week 2: use mapbox to display the map and write code to play music 
+- Week 3: build a user selection a route and make code to let them play different music
 - Week 4: add lighting to the project and control it with code
 - Week 5: Present complete project.
