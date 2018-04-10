@@ -1,33 +1,24 @@
-# **Travel Planner**
+# **Global Music Player**
 
-Travel planner is a electric map which indicate traffic condition by playing different music and lighting.
+Global music player is a physical globe which plays different music as a player touches different continent on the globe.
 ## **Summary**
-  The goal of my project is to use the technology to help people identify the traffic situation and choose their 
-routes.
-  The reason I choose this subject is related to my commute experience. Since I need to drive to San francisco
-campus from the east bay every weekday, it's hard to look at the map onmy phone to check the traffic condition.
-Most of the time I listen to music while I am driving. So if there is a smart map that can tell drivers the traffic 
-condition by playing different music, it will be much safer to look at the screen while driving. For some people who
-like to check the traffic condition before they take off, I want to use different colors of LED lights with music 
-to indicate the traffic condition.
-  The ideal way is that user choose the route with their voice, and the smart map will tell the user how is 
-the traffic condition with music and lighting.Because we only have 5 weeks to execute the project, I will start
-by making the automatically-selected routes map with music.According to the real time traffic data, the program will
-play various music. If I finish this before 3 weeks, I will build the user selection routes map. As user choose different
-routes, the program will play different kinds of music. Then if there's still time, I will add some lighting on it. 
+  The goal of my project is to use the technology to help people learn music from different areas.
+  The reason I choose this subject is that I want to find a way to help people understand various culture in our world, while music is part of the culture.
+  As a player touches different continent on the globe, computer will play the music created in that area. For example, when a player touches Africa on the globe, he or she will hear the African music collection. If I still have time after finish this, I will add some color lights on it. So the player will hear the music and see the lightning in that area. 
+ 
 
 ## **Component Parts**
 
-On the hardware side, I will need some LED lights, Feather board and my computer.
+On the hardware side, I will need a globe, fabric sensors, some LED lights, Feather board and my computer.
+-  a globe cover with fabric sensors(input)
 - LED lights (output)
 
-On the software side,I will need a mapbox to display map and traffic data API to play music.
-- traffic data API (input)
-- mapbox(output)
-- a software with a few buttons to choose different route.(input)
+On the software side,I will need some music collection of 7 continents.
+- music player (output)
+
 
 ## **Block Diagram**
-https://github.com/RuitaoLiang/Final-Project/blob/master/block%20diagram.pdf
+
 
 ## **Challenges**
 
