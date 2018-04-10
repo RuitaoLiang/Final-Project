@@ -18,20 +18,16 @@ On the software side,I will need some music collection of 7 continents.
 
 
 ## **Block Diagram**
-
+https://github.com/RuitaoLiang/Final-Project/blob/master/Screen%20Shot%202018-04-10%20at%209.26.14%20AM.png
 
 ## **Challenges**
 
-Finding the useful traffic data API is a challenge for me, since the data may not update very fast if it's free of charge.
-If Using a mapbox to display my map is not supporting user selection, I will need to draw my own map, which is a big challenge for me.
-
-Also building a software to let user choose the route is new to me.
-Finally adding LED lights to feather board and connecting it to the traffic data is also quite complicated, so I expect to take a long time to try and make errors.
+Connecting the globe and fabic sensors is a challenge for me, since I never use this kind of sensors before.Also writing code to let user choose the music is new to me.
 
 ## **Timeline**
 
-- Week 1: Write proposal,online search traffic data API,and learn what data it generate and which is useful to my project
-- Week 2: use mapbox to display the map and write code to play music according the trafiic data
-- Week 3: build a user selection route map and make code to play music
-- Week 4: add lighting to the project and control it with code and traffic data.
+- Week 1: Write proposal,get the materials 
+- Week 2: connect the sensors to the globe and write code to play music 
+- Week 3: build a user selection web and make code to let them choose different music in one area
+- Week 4: add lighting to the project and control it with code
 - Week 5: Present complete project.
